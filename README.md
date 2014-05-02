@@ -28,7 +28,7 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= 
+
 	raoul2000\jcrop\JCropWidget::widget([
 		'id' => 'target',
 		'aspectRatio' => 1,
@@ -39,7 +39,8 @@ Once the extension is installed, simply use it in your code by  :
 		'bgOpacity' => '0.5',
 		'onChange' => new yii\web\JsExpression('function(c){console.log(c.x);}')
 	]);
-?>```
+
+```
 
 For complete documentation please refer to the [official JCrop page](http://deepliquid.com/content/Jcrop.html)
 
