@@ -24,7 +24,7 @@ use yii\web\JsExpression;
  * ]);
  * ~~~
  * 
- * @author Raoul
+ * @author Raoul <raoul.boulard@gmail.com>
  *
  */
 class JCropWidget extends Widget
