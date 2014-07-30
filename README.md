@@ -28,7 +28,6 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-
 	raoul2000\jcrop\JCropWidget::widget([
 		'selector' => '#image_id',
 		'pluginOptions' => [
@@ -41,7 +40,6 @@ Once the extension is installed, simply use it in your code by  :
 			'onChange' => new yii\web\JsExpression('function(c){console.log(c.x);}')
 		]
 	]);
-
 ```
 
 For complete documentation please refer to the [official JCrop page](http://deepliquid.com/content/Jcrop.html)

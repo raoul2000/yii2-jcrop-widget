@@ -12,16 +12,16 @@ use yii\helpers\Json;
  *
  * ~~~
  * echo JCropWidget::widget([
- * 		'selector' => '#image_id',
- *      'pluginOptions' => [
- * 			'aspectRatio' => 1,
- * 			'minSize' => [50,50],
- * 			'maxSize' => [200,200],
- * 			'setSelect' => [10,10,40,40],
- * 			'bgColor' => 'black',
- * 			'bgOpacity' => '0.5',
- * 			'onChange' => new yii\web\JsExpression('function(c){console.log(c.x);}')
- * 		]
+ *    'selector' => '#image_id',
+ *    'pluginOptions' => [
+ *        'aspectRatio' => 1,
+ *        'minSize' => [50,50],
+ *        'maxSize' => [200,200],
+ *        'setSelect' => [10,10,40,40],
+ *        'bgColor' => 'black',
+ *        'bgOpacity' => '0.5',
+ *        'onChange' => new yii\web\JsExpression('function(c){console.log(c.x);}')
+ *     ]
  * ]);
  * ~~~
  *
