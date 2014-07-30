@@ -60,8 +60,8 @@ class JCropWidget extends Widget
 	public function run()
 	{
 		$this->registerClientScript();
-
 	}
+
 	/**
 	 * Registers the needed JavaScript and register the JS initialization code
 	 */
