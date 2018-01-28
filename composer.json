@@ -11,7 +11,7 @@
 		"image",
 		"jquery"
 	],
-	"license" : "BSD 3-Clause",
+	"license" : "BSD-3-Clause",
 	"authors" : [{
 			"name" : "Raoul",
 			"email" : "raoul.boulard@gmail.com"
